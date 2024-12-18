@@ -20,6 +20,13 @@ public class MatrizApp {
              }
          }
     	
+         System.out.println("Matriz de 5x5 de números aleatorios entre 1 y 100:");
+         for (int i = 0; i < filas; i++) {
+             for (int j = 0; j < columnas; j++) {
+                 System.out.print(matriz[i][j] + "\t"); 
+             }
+             System.out.println(); 
+         }
          
     	
     }
